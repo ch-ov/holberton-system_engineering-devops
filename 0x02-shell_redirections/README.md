@@ -1,0 +1,1 @@
+*echo* for print string
