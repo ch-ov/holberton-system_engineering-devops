@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%xn' $((2#$DECIMAL))
+echo $((16#$DECIMAL))
