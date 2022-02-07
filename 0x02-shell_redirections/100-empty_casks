@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty |cut -d '/' -f1
+find . –maxdepth 1 –type d,f -empty
