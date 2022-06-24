@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# While Best School loop
+x=10
+while [ $x != 0 ]
+do
+    echo "Best School"
+    (( x-- ))
+done
