@@ -1,4 +1,4 @@
-![Logo](images\logo.png)
+![Logo](images/logo.png)
 # 0x09. Web infrastructure design
 
 ## Description
