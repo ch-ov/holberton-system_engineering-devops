@@ -91,4 +91,3 @@ Why having servers with all the same components (database, web server and applic
 
 * Christian Oviedo
 * Jaime Rodriguez
-* Leyner Lopez
