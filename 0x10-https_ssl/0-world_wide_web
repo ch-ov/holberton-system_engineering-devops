@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Display information about subdomains.
+displaySDMInfo () {
+    dig "$2"."$1" | awk -v SDM="$2" '/ANSWER SECTION:/{getline; print "The subdomain " SDM " is a " $4 " record and points to " $5}'
+}
+subdomains=("www" "web-01" "web-02" "lb-01")
+for SDM in subdomains; do
+    if [ "$SDM" == "$2" ] || [ -z "$2" ]; then
+        displaySDMInfo "$1" "$SDM"
+    fi
+done
